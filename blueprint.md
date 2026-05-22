@@ -1,28 +1,28 @@
 # Project Blueprint
 
 ## Overview
+A modern, responsive Lotto Number Generator web application featuring real-time number generation, theme persistence, and a partnership inquiry system.
 
-This project is a simple web application that generates random lottery numbers for the user.
+## Features & Implementation Detail
 
-## Initial Implementation
+### Core Features
+*   **Lottery Number Generation:** Generates 6 unique random numbers between 1 and 45. Numbers are automatically sorted in ascending order for better readability.
+*   **Theme Management:** Supports Dark Mode and Light Mode with persistence using `localStorage`. The theme state is applied to the `documentElement` via a `data-theme` attribute.
+*   **Partnership Inquiry Form:** Integrated with Formspree (`mgoqkbga`) to handle external collaborations. Includes validation and responsive styling.
 
-### Features
+### Design & Aesthetics
+*   **Modern CSS:** Uses CSS variables for consistent theming and smooth transitions between modes.
+*   **Responsive Layout:** Flexbox-based design that adapts to mobile and desktop screens.
+*   **Visual Feedback:** Interactive buttons with hover and active states, plus shadow effects for depth.
 
-*   **Lottery Number Generation:** Generate 6 unique random numbers between 1 and 45.
-*   **Display:** Display the generated numbers to the user.
+### Current Progress (v2.0)
+- [x] Initial Lotto Generation Logic
+- [x] Dark/Light Mode Toggle & Persistence
+- [x] Partnership Inquiry Form Integration
+- [x] GitHub Repository Sync
+- [x] Firebase Hosting Configuration (`firebase.json`, `.firebaserc`)
 
-### Design
-
-*   **Layout:** A simple, centered layout.
-*   **Styling:** Use modern CSS for a clean and appealing look.
-
-## Deployment
-
-To make the web page accessible in a standard web browser, the site will be deployed to Firebase Hosting.
-
-**Plan:**
-
-1.  Use the `classic_firebase_hosting_deploy` tool to deploy the application.
-2.  The application is a static client-side app, so the `appType` will be `client`.
-3.  The root directory `.` contains all the necessary files (`index.html`, `style.css`, `main.js`), so the `path` will be `.`.
-4.  Provide the user with the generated public URL.
+## Deployment Strategy
+The application is deployed to **Firebase Hosting** for high performance and global availability.
+- **Hosting Target:** `y-playground-12857262-c8683`
+- **Root Directory:** `.` (Static deployment)
