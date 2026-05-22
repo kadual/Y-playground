@@ -1,28 +1,29 @@
 # Project Blueprint
 
 ## Overview
-A modern, responsive Lotto Number Generator web application featuring real-time number generation, theme persistence, and a partnership inquiry system.
+A modern, responsive Lotto Number Generator web application featuring real-time number generation, theme persistence, a partnership inquiry system, and user interaction through comments.
 
 ## Features & Implementation Detail
 
 ### Core Features
-*   **Lottery Number Generation:** Generates 6 unique random numbers between 1 and 45. Numbers are automatically sorted in ascending order for better readability.
-*   **Theme Management:** Supports Dark Mode and Light Mode with persistence using `localStorage`. The theme state is applied to the `documentElement` via a `data-theme` attribute.
-*   **Partnership Inquiry Form:** Integrated with Formspree (`mgoqkbga`) to handle external collaborations. Includes validation and responsive styling.
+*   **Lottery Number Generation:** Generates 6 unique random numbers between 1 and 45. Numbers are automatically sorted in ascending order.
+*   **Theme Management:** Supports Dark Mode and Light Mode with persistence using `localStorage`.
+*   **Partnership Inquiry Form:** Integrated with Formspree (`mgoqkbga`) for collaboration requests.
+*   **Comments System:** Integrated with Disqus (`y-playground`) to facilitate user discussions and feedback.
 
 ### Design & Aesthetics
-*   **Modern CSS:** Uses CSS variables for consistent theming and smooth transitions between modes.
-*   **Responsive Layout:** Flexbox-based design that adapts to mobile and desktop screens.
-*   **Visual Feedback:** Interactive buttons with hover and active states, plus shadow effects for depth.
+*   **Modern CSS:** Uses CSS variables for consistent theming and smooth transitions.
+*   **Responsive Layout:** Adapts to mobile and desktop screens with a centered, container-based UI.
+*   **Interactive UI:** High-quality buttons with glow effects, transition animations, and persistent state.
 
-### Current Progress (v2.0)
+### Current Progress (v3.0)
 - [x] Initial Lotto Generation Logic
 - [x] Dark/Light Mode Toggle & Persistence
 - [x] Partnership Inquiry Form Integration
+- [x] Disqus Comment System Integration
 - [x] GitHub Repository Sync
-- [x] Firebase Hosting Configuration (`firebase.json`, `.firebaserc`)
+- [x] Firebase Hosting Deployment
 
 ## Deployment Strategy
-The application is deployed to **Firebase Hosting** for high performance and global availability.
-- **Hosting Target:** `y-playground-12857262-c8683`
-- **Root Directory:** `.` (Static deployment)
+- **Hosting Target:** Firebase Hosting (`y-playground-12857262-c8683`)
+- **Version Control:** GitHub (`https://github.com/kadual/Y-playground`)

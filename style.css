@@ -44,13 +44,19 @@ body {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-container {
+.comment-container {
     text-align: left;
+    margin-bottom: 2rem;
 }
 
-.contact-container h2 {
+.comment-container h2 {
     text-align: center;
     margin-top: 0;
+}
+
+/* Ensure Disqus is visible in dark mode if it doesn't auto-detect */
+#disqus_thread {
+    min-height: 200px;
 }
 
 .contact-form {
